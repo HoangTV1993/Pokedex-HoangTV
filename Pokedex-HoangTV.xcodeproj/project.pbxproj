@@ -12,6 +12,9 @@
 		435704951D79CF730003AE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435704931D79CF730003AE36 /* Main.storyboard */; };
 		435704971D79CF730003AE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435704961D79CF730003AE36 /* Assets.xcassets */; };
 		4357049A1D79CF730003AE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435704981D79CF730003AE36 /* LaunchScreen.storyboard */; };
+		43D5E82C1D79DF3500597659 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43D5E8291D79DF3500597659 /* music.mp3 */; };
+		43D5E82D1D79DF3500597659 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 43D5E82A1D79DF3500597659 /* pokemon.csv */; };
+		43D5E82E1D79DF3500597659 /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43D5E82B1D79DF3500597659 /* pokemon.ttf */; };
 		EC75D9C831F6408DD50D1C51 /* Pods_Pokedex_HoangTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AF5A5158543761FFF48D02 /* Pods_Pokedex_HoangTV.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 		435704961D79CF730003AE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		435704991D79CF730003AE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4357049B1D79CF730003AE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D5E8291D79DF3500597659 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		43D5E82A1D79DF3500597659 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		43D5E82B1D79DF3500597659 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
 		58AF5A5158543761FFF48D02 /* Pods_Pokedex_HoangTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex_HoangTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		710A3C1819F59698B6AB9750 /* Pods-Pokedex-HoangTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-HoangTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex-HoangTV/Pods-Pokedex-HoangTV.debug.xcconfig"; sourceTree = "<group>"; };
 		BBB080EA68ED51CBB36C46C5 /* Pods-Pokedex-HoangTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-HoangTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex-HoangTV/Pods-Pokedex-HoangTV.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +67,7 @@
 		4357048E1D79CF730003AE36 /* Pokedex-HoangTV */ = {
 			isa = PBXGroup;
 			children = (
+				43D5E8281D79DF0600597659 /* Resources */,
 				435704A31D79D0260003AE36 /* View */,
 				435704A21D79D01F0003AE36 /* Controller */,
 				435704A11D79D01A0003AE36 /* Model */,
@@ -93,6 +100,16 @@
 			children = (
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		43D5E8281D79DF0600597659 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43D5E8291D79DF3500597659 /* music.mp3 */,
+				43D5E82A1D79DF3500597659 /* pokemon.csv */,
+				43D5E82B1D79DF3500597659 /* pokemon.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		611CAC21BFCA1731B9575745 /* Pods */ = {
@@ -173,9 +190,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D5E82C1D79DF3500597659 /* music.mp3 in Resources */,
 				4357049A1D79CF730003AE36 /* LaunchScreen.storyboard in Resources */,
 				435704971D79CF730003AE36 /* Assets.xcassets in Resources */,
 				435704951D79CF730003AE36 /* Main.storyboard in Resources */,
+				43D5E82E1D79DF3500597659 /* pokemon.ttf in Resources */,
+				43D5E82D1D79DF3500597659 /* pokemon.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
