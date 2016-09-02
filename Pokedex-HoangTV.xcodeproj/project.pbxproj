@@ -12,6 +12,7 @@
 		435704951D79CF730003AE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435704931D79CF730003AE36 /* Main.storyboard */; };
 		435704971D79CF730003AE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435704961D79CF730003AE36 /* Assets.xcassets */; };
 		4357049A1D79CF730003AE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435704981D79CF730003AE36 /* LaunchScreen.storyboard */; };
+		EC75D9C831F6408DD50D1C51 /* Pods_Pokedex_HoangTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AF5A5158543761FFF48D02 /* Pods_Pokedex_HoangTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		435704961D79CF730003AE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		435704991D79CF730003AE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4357049B1D79CF730003AE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AF5A5158543761FFF48D02 /* Pods_Pokedex_HoangTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex_HoangTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		710A3C1819F59698B6AB9750 /* Pods-Pokedex-HoangTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-HoangTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex-HoangTV/Pods-Pokedex-HoangTV.debug.xcconfig"; sourceTree = "<group>"; };
+		BBB080EA68ED51CBB36C46C5 /* Pods-Pokedex-HoangTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex-HoangTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokedex-HoangTV/Pods-Pokedex-HoangTV.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC75D9C831F6408DD50D1C51 /* Pods_Pokedex_HoangTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				4357048E1D79CF730003AE36 /* Pokedex-HoangTV */,
 				4357048D1D79CF730003AE36 /* Products */,
+				611CAC21BFCA1731B9575745 /* Pods */,
+				D1CA03E97FDFE3A5151FEF55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +61,9 @@
 		4357048E1D79CF730003AE36 /* Pokedex-HoangTV */ = {
 			isa = PBXGroup;
 			children = (
+				435704A31D79D0260003AE36 /* View */,
+				435704A21D79D01F0003AE36 /* Controller */,
+				435704A11D79D01A0003AE36 /* Model */,
 				4357048F1D79CF730003AE36 /* AppDelegate.swift */,
 				435704911D79CF730003AE36 /* ViewController.swift */,
 				435704931D79CF730003AE36 /* Main.storyboard */,
@@ -64,6 +74,44 @@
 			path = "Pokedex-HoangTV";
 			sourceTree = "<group>";
 		};
+		435704A11D79D01A0003AE36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		435704A21D79D01F0003AE36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		435704A31D79D0260003AE36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		611CAC21BFCA1731B9575745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				710A3C1819F59698B6AB9750 /* Pods-Pokedex-HoangTV.debug.xcconfig */,
+				BBB080EA68ED51CBB36C46C5 /* Pods-Pokedex-HoangTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1CA03E97FDFE3A5151FEF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58AF5A5158543761FFF48D02 /* Pods_Pokedex_HoangTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4357049E1D79CF730003AE36 /* Build configuration list for PBXNativeTarget "Pokedex-HoangTV" */;
 			buildPhases = (
+				5C2437958AF9B22686C2DF3C /* [CP] Check Pods Manifest.lock */,
 				435704881D79CF730003AE36 /* Sources */,
 				435704891D79CF730003AE36 /* Frameworks */,
 				4357048A1D79CF730003AE36 /* Resources */,
+				81CF3333F775D0036A4CF6F8 /* [CP] Embed Pods Frameworks */,
+				0C22D50C4F0B826D57000F9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +180,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C22D50C4F0B826D57000F9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pokedex-HoangTV/Pods-Pokedex-HoangTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C2437958AF9B22686C2DF3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81CF3333F775D0036A4CF6F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pokedex-HoangTV/Pods-Pokedex-HoangTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		435704881D79CF730003AE36 /* Sources */ = {
@@ -249,6 +348,7 @@
 		};
 		4357049F1D79CF730003AE36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710A3C1819F59698B6AB9750 /* Pods-Pokedex-HoangTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pokedex-HoangTV/Info.plist";
@@ -260,6 +360,7 @@
 		};
 		435704A01D79CF730003AE36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB080EA68ED51CBB36C46C5 /* Pods-Pokedex-HoangTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pokedex-HoangTV/Info.plist";
@@ -288,6 +389,7 @@
 				435704A01D79CF730003AE36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
