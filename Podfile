@@ -7,5 +7,5 @@ target 'Pokedex-HoangTV' do
 
   # Pods for Pokedex-HoangTV
   pod 'Alamofire', '~> 3.4'	
-
+  pod 'MBProgressHUD', '~> 1.0.0'
 end
